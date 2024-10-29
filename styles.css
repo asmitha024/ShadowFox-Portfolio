@@ -1,0 +1,181 @@
+body {
+    font-family: 'forte', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('fron.jpj.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: rgb(0, 0, 0); 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    min-height: 100vh; 
+}
+header {
+    text-align: center; /* Center the header text */
+    margin: 5px; 
+}
+
+main {
+    display: flex; 
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center;
+    margin-top: 3px; 
+    flex: 1; 
+    position: relative; 
+    max-width: 800px; 
+    padding: 0px; 
+}
+
+p {
+    color:black; /* Paragraph text color */
+    line-height:2.5;
+}
+
+footer {
+    text-align: center;
+    padding: 5px 0;
+    color:black;
+    font-size: 1.0rem;
+
+}
+header {
+    text-align: left; /* Center the header text */
+    margin: 10px 0; /* Space above and below the header */
+}
+nav {
+
+    margin:5px; /* Space above and below the nav */
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+nav ul li {
+    display: inline; /* Display links inline */
+    margin-top: 10px;
+    padding-top: 1px;
+    margin: 15px; /* Space between links */
+}
+
+nav a {
+    font-size: 1.2rem;
+    color: black; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav a:hover {
+    color:rgb(65, 63, 63); /* Change color on hover for better visibility */
+    text-decoration: underline; /* Underline on hover */
+}
+
+.info-list, .education-list {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color:black; /* Color for list items */
+    font-size: 1.0rem;
+}
+
+ol li {
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+.section-title{
+    color:black; 
+    font-size: 1.2rem; 
+    margin-top: 10px; 
+}
+header {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.certificates-header {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    color:black;
+}
+.certificate-info {
+    margin-bottom: 15px; /* Space between certificates */
+    color: black;
+}
+
+.certificate-info a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Link color */
+}
+
+.certificate-info a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    color: #fff; /* Header text color */
+    padding:5px; /* Vertical padding */
+    text-align: center; /* Centered text */
+}
+
+.header-title {
+    font-size: 1.4rem;
+    color:black /* Font size for header title */
+}
+
+.main-content {
+    max-width: 800px; /* Max width for content */
+    margin: 0px auto; /* Centered content */
+    padding: 2px; /* Padding for content */
+}
+
+.project-title {
+    color:black; 
+    font-size: 1.2rem; 
+    margin-top: 10px; 
+}
+
+.features-title,
+.technologies-title {
+    font-size: 1.0rem; 
+    color: #000000; 
+    margin-top: 15px; 
+}
+
+.features-list {
+    list-style-type: square;
+    margin-left: 15px; 
+    color: #000000;
+}
+
+.features-list li {
+    margin-bottom: 2px;
+    font-size: 1.0rem;  /* Space between list items */
+}
+
+.technologies-list {
+    font-size: 1rem; /* Font size for technologies */
+    color: #000000; /* Color for technologies text */
+    margin-top: 10px; /* Space above technologies text */
+}
+.project-description {
+    max-width: 500px; 
+    font-size: 1rem; /* Font size for project description */
+    color:rgb(3, 3, 3); /* Color for description text */
+    margin-top: 10px; /* Space above the description */
+    margin-bottom: 15px; /* Space below the description */
+    white-space: pre-line; /* Ensures line breaks are respected */
+}
+.logo {
+    width: 50px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align with text */
+    margin-right: 10px; /* Space between logo and text */
+}
+
